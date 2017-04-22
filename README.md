@@ -1,4 +1,7 @@
-# test coverage for  [bencode (v0.11.0)](https://github.com/themasch/node-bencode#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-bencode.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-bencode) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-bencode.svg)](https://travis-ci.org/npmtest/node-npmtest-bencode)
+# npmtest-bencode
+
+#### basic test-coverage for  [bencode (v0.11.0)](https://github.com/themasch/node-bencode#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-bencode.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-bencode) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-bencode.svg)](https://travis-ci.org/npmtest/node-npmtest-bencode)
+
 #### Bencode de/encoder
 
 [![NPM](https://nodei.co/npm/bencode.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/bencode)
@@ -91,7 +94,8 @@
         "bench": "matcha",
         "test": "standard && tape test/*.test.js | tap-spec"
     },
-    "version": "0.11.0"
+    "version": "0.11.0",
+    "bin": {}
 }
 ```
 
